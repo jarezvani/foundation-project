@@ -3,14 +3,251 @@
   <head>
     <meta charset="utf-8">
     <title>Rooster Grin Front End Dev Test</title>
+    <link rel="stylesheet" type="text/css" href="styles/foundation.css">
     <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
+      <!--   Top Bar   -->
+    <div class="top-bar">
+      <img src="/assets/images/igniter-logo-white.png" />
+    </div>
 
-    <pre>
-      <h1>Hello World</h1>
-    </pre>
+    <!--  Carousel  -->
 
-    <script type="text/javascript" src="bundle.js"></script>
+    <div class="orbit" role="region" aria-label="pictures" data-orbit>
+      <div class="orbit-wrapper">
+        <div class="orbit-controls">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
+          <button class="orbit-next modal-open drop-shadow"><span class="show-for-sr">Next Slide</span><img src="assets/images/envelope-icon.svg" class="msg-icon"/></button>
+        </div>
+        <ul class="orbit-container">
+          <li class="is-active orbit-slide">
+            <div id="slide-1">
+              <div class="hero-text">
+                <h4>
+                  Lorem Ipsum Lorem Ipsum
+                </h4>
+                <button class="primary-btn modal-open">Button</button>
+              </div>
+            </div>
+          </li>
+          <li class="orbit-slide">
+            <div id="slide-2">
+              <div class="hero-text">
+                <h4>
+                  Lorem Ipsum Lorem Ipsum
+                </h4>
+                <button class="primary-btn modal-open">Button</button>
+              </div>
+            </div>
+          </li>
+          <li class="orbit-slide">
+            <div id="slide-3">
+              <div class="hero-text">
+                <h4>
+                  Lorem Ipsum Lorem Ipsum
+                </h4>
+                <button class="primary-btn modal-open">Button</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0"><span class="show-for-sr"></span><span class="show-for-sr"></span></button>
+        <button data-slide="1"><span class="show-for-sr"></span></button>
+        <button data-slide="2"><span class="show-for-sr"></span></button>
+      </nav>
+    </div>
+
+      <!--   info   -->
+    <div class="grid-x info-grid">
+      <div class="cell small-4 small-offset-2">
+        <div class="grid-x">
+          <div class="small-2 cell small-offset-1">
+            <img class="page-icon" src="/assets/images/page-icon.svg" />
+          </div>
+          <div class="small-9 cell">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-4">
+        <div class="grid-x">
+          <div class="small-2 cell small-offset-1">
+            <img class="page-icon" src="/assets/images/page-icon.svg" />
+          </div>
+          <div class="small-9 cell">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="small-2 cell"></div>
+      <div class="cell small-4 small-offset-2">
+        <div class="grid-x">
+          <div class="small-2 cell small-offset-1">
+            <img class="page-icon" src="/assets/images/page-icon.svg" />
+          </div>
+          <div class="small-9 cell">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-4">
+        <div class="grid-x">
+          <div class="small-2 cell small-offset-1">
+            <img class="page-icon" src="/assets/images/page-icon.svg" />
+          </div>
+          <div class="small-9 cell">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="small-2 cell"></div>
+    </div>
+
+    <div id="segment-3">
+      <div>
+        <h4>
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+        </h4>
+      </div>
+    </div>
+    
+
+    <div class="segment-header">
+      <h2 class="two-tone">LOREM <span>IPSUM</span></h2>
+    </div>
+
+    <div class="grid-x">
+      <div class="small-4 small-offset-2 cell">
+        <p>
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+      </div>
+      <div class="small-4 cell btn-cell">
+        <button class="primary-btn modal-open">Button</button>
+      </div>
+      <div class="small-2 cell"></div>
+    </div>
+
+    <div class="grid-x padding-top">
+      <div class="small-2 cell small-offset-2 center">
+        <div class='percent'>
+          240%
+        </div>
+        <p class="p-orange">
+          Lorem ipsum dolor sit amet lorem ipsum dolor
+        </p>
+      </div>
+      <div class="small-2 cell small-offset-1 center">
+        <div class='percent'>
+          105%
+        </div>
+        <p class="p-orange">
+          Lorem ipsum dolor sit amet lorem ipsum dolor
+        </p>
+      </div>
+      <div class="small-2 cell small-offset-1 center">
+        <div class='percent'>
+          159%
+        </div>
+        <p class="p-orange">
+          Lorem ipsum dolor sit amet lorem ipsum dolor
+        </p>
+      </div>
+      <div class="small-2 cell"></div>
+    </div>
+
+
+    <div class="segment-header">
+      <h2 class="two-tone">LOREM <span>IPSUM</span></h2>
+    </div>    
+
+    <div class="grid-x">
+      <div class="s4-text small-4 cell small-offset-1">
+        <h2>
+          Lorem ipsum dolor sit amet
+        </h2>
+        <h3>
+          Lorem ipsum dolor sit amet Lorem ipsum
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="s4-img small-6 cell small-offset-1">
+        <img class="page-icon" src="/assets/images/img1.jpg" />
+      </div>
+
+      <div class="s4-img small-6 cell">
+        <img class="page-icon" src="/assets/images/img2.jpg" />
+      </div>
+      <div class="s4-text small-4 cell small-offset-1">
+        <h2>
+          Lorem ipsum dolor sit amet
+        </h2>
+        <h3>
+          Lorem ipsum dolor sit amet Lorem ipsum
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="small-1 cell"></div>
+    </div>
+
+
+    <div id="signup-modal" class="full reveal" data-reveal>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div id="modal-form">
+        <h2>
+          LOREM IPSUM
+        </h2>
+        <div class="grid-x">
+          <div class="small-12 cell">
+            <p>Your Name</p>
+            <input type="text" name="name">
+          </div>
+          <div class="small-5 cell">
+            <p>Your Email</p>
+            <input type="text" name="name">
+          </div>
+          <div class="small-5 cell small-offset-2">
+            <p>Phone Number</p>
+            <input type="text" name="name">
+          </div>
+          <div class="small-12 cell">
+            <p>Message</p>
+            <textarea rows="6">
+              
+            </textarea>
+          </div>
+        </div>
+        <button class="primary-btn modal-close">Button</button>
+      </div>
+    </div>
+
+
+
+    <div class="footer">
+    </div>
+
+
+    <script src="src/vendor/jquery.js"></script>
+    <script src="src/vendor/what-input.js"></script>
+    <script src="src/vendor/foundation.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>

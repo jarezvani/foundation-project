@@ -1,4 +1,11 @@
-import Home from '../index.html'
-import Styles from '../styles/main.css'
+$(document).foundation();
 
-console.log("working")
+(function(){
+   $(".modal-open").on('click', function(){
+      $("#signup-modal").foundation('open');
+   });
+
+   $(".modal-close").on('click', function(){
+      $("#signup-modal").foundation('close');     
+   });
+})();
