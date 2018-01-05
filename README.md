@@ -10,11 +10,11 @@ To run, simply download and run the following commands:
 By default, it will run on localhost:8080
 
 
-## What was used to build page
+## What I used to develop this page
 
   
 
-  ### 1. What you technologies used and why 
+  ### 1. What technologies used and why 
 
     The frontend framework I chose to build this page was Zurb Foundation 6. I chose Foundation for its simple and flexible grid system, as well as other useful pre-packaged features such as Orbit (a slide carousel) and Reveal (quick way to integrate modal windows into the page.)
 
